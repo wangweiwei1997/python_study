@@ -43,6 +43,36 @@ sal=4000
 comm=300
 if sal>2000 or comm>200:
     print('很高')
+    
+#整形
+chang=30
+#浮点
+comm=100.5
+#布尔
+True
+False
+
+sal=3000
+if sal>2000:
+    print('好')
+
+
+#字符串：所有的字符串用单引号和双引号
+name='王苇'
+name="王苇"
+name=''
+
+#字典和元祖（一堆行为）
+
+
+
+
+
+
+
+
+
+
 
 
     
