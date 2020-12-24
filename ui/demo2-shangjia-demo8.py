@@ -13,7 +13,7 @@ driver.find_element_by_class_name('btn-a').click()
 
 driver.switch_to.frame('menu-frame')
 driver.find_elements_by_link_text('商品列表').click()
-#退出，进另外一个
+#退出一个界面，进另外一个界面(菜单-管理中心）
 driver.switch_to_default_content()
 driver.switch_to.frame('main-frame')
 
