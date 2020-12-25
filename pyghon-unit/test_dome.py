@@ -18,6 +18,7 @@ class testgoods():
 
 g = testgoods()
 g.test_one()
+
         
 
 
