@@ -62,7 +62,56 @@ name='王苇'
 name="王苇"
 name=''
 
-#字典和元祖（一堆行为）
+
+
+
+#字典和元祖(无序）（一堆行为）
+userinfo = ()
+#一维
+# userinfo = ('王苇',123,'耗子',123,'兔子')
+#二维
+#           0                         1                        2
+userinfo = ('王苇',123,'好好',123,'兔子'),('王苇',123,'完美',123,'兔子'),('王苇',123,'耗子',123,'兔子')
+#           -3                        -2                       -1
+name = ['王苇 ',12,'耗子',123,'兔子']
+
+
+print(userinfo[0])
+print(userinfo[1])
+print(userinfo[2])
+
+print(userinfo[0:2])
+
+userinfo2=('王苇',123,'好好',123,'兔子')
+
+# for i in range(5):
+#     print(i)
+# 
+# for i in range(4):
+#     print(userinfo2[i])
+for i in range(4):
+    print(userinfo2[i])
+
+
+#增加 appdne 
+userinfo2=['王苇',123,'好好',123,'兔子']
+userinfo2.append('兔兔')
+print(userinfo2)
+
+userinfo2.insert(1,'张珊')
+print(userinfo2)
+
+
+
+    
+
+
+
+
+
+
+
+
 
 
 
